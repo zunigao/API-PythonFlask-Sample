@@ -11,7 +11,7 @@ Finds the shortest path given a graph of countries
 A start node and an end node (CAN)
 
 '''
-def shortest_path(graph, start, end = 'CAN', path=[]):
+def shortest_path(graph, start, end, path=[]):
 	path = path + [start]
 	if start == end:
 		return path
@@ -32,6 +32,7 @@ if __name__ == "__main__":
 		print('Usage: python3 {0} country_code'.format(sys.argv[0]), file=sys.stderr)
 		exit()
 	countries = graph_loader('countries.json')
-	route = shortest_path(countries, start = sys.argv[1])
+	route =shortest_path(countries)
+	#route = shortest_path(countries, end = sys.argv[1])
 
 	print(route)
