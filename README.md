@@ -43,7 +43,7 @@ Dataset includes a list of 3-letter country codes and neighboring countries that
 - If the user enters an incorrect input then a "None" is returned.
 - I tested the dataset loader to make sure that all countries and their neighbors were imported correctly.
 - I tested the list of countries returned when entering a country code for all the countries.
-- 
+- I performed unit testing to make sure that the shortest path returns the correct list of countries
 
 ## Improvements
 - If this were a more complex project there would need to be some improvements.
