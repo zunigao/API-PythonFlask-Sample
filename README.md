@@ -52,6 +52,5 @@ Dataset includes a list of 3-letter country codes and neighboring countries that
 - If the data is complex enough it might be best to employ a machine learning approach instead of a traditional shortest path algorithm.
 - It is important to consider the longevity of the project. If this were an API that were used at CH Robinson then it would need to be implemented in C# and .NET core to better connect with the current codebase.
 - Flask is not able to handle requests associated with multiprocessing therefore it is important to either switch to a different framework or set up a Web Server Gateway Interface with the Web server. This would be important for when there are multiple calls being made to this API.
-- 
  
 
