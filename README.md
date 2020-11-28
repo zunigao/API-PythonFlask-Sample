@@ -12,11 +12,11 @@ Creating an API using Python and Flask as a sample
 
 
 ## Planning
-User stories:
-    User can start with a list of possible options to enter at first endpoint.
-    User inputs country code and gets a list of countries a driver must drive through.
-    User enters the USA as a destination and gets a list containing a single item country (USA).
-    User enters "BLZ" as a destination and gets a list containing ["USA","MEX", "BLZ"].
+    ### User stories:
+    - User can start with a list of possible options to enter at first endpoint.
+    - User inputs country code and gets a list of countries a driver must drive through.
+    - User enters the USA as a destination and gets a list containing a single item country (USA).
+    - User enters "BLZ" as a destination and gets a list containing ["USA","MEX", "BLZ"].
 
 Dataset includes a list of 3-letter country codes and neighboring countries that a driver must drive through.
 
